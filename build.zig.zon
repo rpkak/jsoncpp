@@ -1,0 +1,14 @@
+.{
+    .name = "jsoncpp",
+    .version = "1.9.5",
+    .dependencies = .{
+        .jsoncpp = .{
+            .url = "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.5.tar.gz",
+            .hash = "12204c57b380a8ca3563378632cb38a6fa5b31b6b34ac9067d879ceb3326b994c8f8",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
